@@ -1,16 +1,35 @@
-# flutter_application_1
+# 🛒 ตลาดชุมชน (Community Market)
 
-A new Flutter project.
+แอปพลิเคชันร้านค้าชุมชนที่พัฒนาด้วย Flutter เพื่อเป็นสื่อกลางในการสนับสนุนเศรษฐกิจและกระจายรายได้สู่ชุมชน ผู้ใช้สามารถอุดหนุนสินค้าท้องถิ่นได้ง่ายๆ ผ่านสมาร์ทโฟน รวมถึงให้คนในชุมชนสามารถจัดการสินค้าของตัวเองได้
 
-## Getting Started
+## 🎯 จุดประสงค์ของแอปพลิเคชัน
+- เพื่อสนับสนุนและโปรโมตสินค้าจากเกษตรกรหรือคนในชุมชน
+- เพื่อเป็นช่องทางในการจัดการสินค้า (เพิ่ม/ลด/แก้ไข) สำหรับร้านค้าชุมชนแบบออฟไลน์
+- เป็นโปรเจกต์ส่งงานรายวิชาปฏิบัติการกำหนดค่าแอป และสร้างไฟล์ติดตั้ง Android
 
-This project is a starting point for a Flutter application.
+## ✨ รายละเอียดฟีเจอร์หลัก (App Features)
+แอปพลิเคชันนี้มีการทำงานแบบ Offline-first โดยแบ่งฟีเจอร์หลักออกเป็น 2 ส่วน:
 
-A few resources to get you started if this is your first Flutter project:
+1. **ระบบจัดการสินค้า (Local Database - SQLite)**
+   - **Create:** สามารถเพิ่มสินค้าใหม่ลงในระบบได้ (ระบุชื่อ, ราคา, รายละเอียด)
+   - **Read:** แสดงรายการสินค้าทั้งหมดในหน้าโฮมเพจ
+   - **Update:** สามารถกดแก้ไขข้อมูลสินค้าเดิมได้
+   - **Delete:** สามารถลบสินค้าที่เลิกจำหน่ายแล้วออกจากระบบได้
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **ระบบตะกร้าสินค้า (State Management - Provider)**
+   - เลือกหยิบสินค้าลงตะกร้าได้จากหน้าหลัก
+   - ระบบจะคำนวณราคารวมให้อัตโนมัติ (คำนวณจำนวนชิ้น x ราคา)
+   - มีปุ่มยืนยันการสั่งซื้อและเคลียร์ตะกร้าสินค้าเมื่อทำรายการเสร็จสิ้น
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 เทคโนโลยีที่ใช้ (Tech Stack)
+- **Framework:** Flutter (Dart)
+- **State Management:** `provider` (จัดการ State ของตะกร้าสินค้า)
+- **Local Database:** `sqflite` (จัดการฐานข้อมูลสินค้าภายในเครื่อง)
+- **UI & Design:** `google_fonts` (ใช้ฟอนต์ Prompt) และ Material 3 Design
+
+## 📸 ภาพประกอบ (Screenshots)
+
+
+---
+**จัดทำโดย:** [ใส่ชื่อ - นามสกุลของคุณ]
+**รหัสนักศึกษา:** [ใส่รหัสนักศึกษาของคุณ]
