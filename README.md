@@ -28,8 +28,11 @@
 - **UI & Design:** `google_fonts` (ใช้ฟอนต์ Prompt) และ Material 3 Design
 
 ## 📸 ภาพประกอบ (Screenshots)
-
+<img width="492" height="969" alt="Image" src="https://github.com/user-attachments/assets/9e7cb670-94cd-4074-bcb2-ca457d6b0797" />
+<img width="469" height="978" alt="Image" src="https://github.com/user-attachments/assets/2f70881b-0ee5-4ffe-91a4-a945f69ee7d8" />
+<img width="471" height="974" alt="Image" src="https://github.com/user-attachments/assets/de2f5458-9b1d-42bd-9244-cc334abe86e0" />
+<img width="499" height="969" alt="Image" src="https://github.com/user-attachments/assets/0443310a-b2fa-4c98-999d-14d66d9bf67c" />
 
 ---
-**จัดทำโดย:** [ใส่ชื่อ - นามสกุลของคุณ]
-**รหัสนักศึกษา:** [ใส่รหัสนักศึกษาของคุณ]
+**จัดทำโดย:** [วรินทร เครืออินตา]
+**รหัสนักศึกษา:** [675432100065-8]
